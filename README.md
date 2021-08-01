@@ -12,7 +12,7 @@
 ✅ codebase written in ESM style,  
 ✅ zero-config,  
 ✅ JavaScript supported,  
-✅ TypeScript supported (beta),  
+✅ TypeScript supported (WIP),  
 ✅ TypeScript declarations (`*.d.ts`) exported by default,  
 ✅ transpilation supported.
 
