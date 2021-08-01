@@ -15,6 +15,8 @@
 ✅ TypeScript supported (beta),  
 ✅ TypeScript declarations (`*.d.ts`) exported by default,  
 ✅ transpilation supported.
+
+<br>
 <br>
 
 > 🙋‍♂️ For compatibility reasons this starter uses `.js` file extension for the ESM code and `.cjs` for CommonJS code which in turn allows ESM to be consumed by both Node and compatible browsers while also fixing Node module lookup issue which currently doesn't support `.mjs` modules import and occurs in Visual Studio Code and probably other Node-compatible editors/IDEs. CommonJS modules `.cjs` behave as expected. Also, TypeScript compiler doesn't support non-`.js` files when generating `d.ts` declaration files.
