@@ -8,7 +8,7 @@
 
 ✅ single codebase for you to mantain,  
 <br>
-✅ codebase written in ES6,  
+✅ codebase written in ES module style,  
 <br>
 ✅ zero-config,  
 <br>
