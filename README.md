@@ -6,7 +6,7 @@
 
 ## Features
 
-✅ single codebase for you to write,  
+✅ single codebase for you to mantain,  
 <br>
 ✅ codebase written in ES6,  
 <br>
