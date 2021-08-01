@@ -16,7 +16,7 @@
 <br>
 ✅ CommonJS modules supported (for and with backwards-compatibility),  
 <br>
-✅ TypeScript supported,  
+✅ TypeScript supported (beta),  
 <br>
 ✅ JavaScript supported,  
 <br>
