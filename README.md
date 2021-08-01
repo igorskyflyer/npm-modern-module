@@ -19,6 +19,6 @@
 <br>
 <br>
 
-> 🙋‍♂️ For compatibility reasons this starter uses `.js` file extension for the ESM code and `.cjs` for CommonJS code which in turn allows ESM to be consumed by both Node and compatible browsers while also fixing Node module lookup issue which currently doesn't support `.mjs` modules import and occurs in Visual Studio Code and probably other Node-compatible editors/IDEs. CommonJS modules `.cjs` behave as expected. Also, TypeScript compiler doesn't support non-`.js` files when generating `d.ts` declaration files.
->
-> Another thing to consider, when consuming the ESM, servers are not configured to serve `.mjs` files with a mime type of `application/javascript` which is necessary for JavaScript files (including modules) to work properly while the same does not happen when ESM have the "regular" `.js` extension.
+🙋‍♂️ For compatibility reasons this starter uses `.js` file extension for the ESM code and `.cjs` for CommonJS code which in turn allows ESM to be consumed by both Node and compatible browsers while also fixing Node module lookup issue which currently doesn't support `.mjs` modules import and occurs in Visual Studio Code and probably other Node-compatible editors/IDEs. CommonJS modules `.cjs` behave as expected. Also, TypeScript compiler doesn't support non-`.js` files when generating `d.ts` declaration files.  
+
+Another thing to consider, when consuming the ESM, servers are not configured to serve `.mjs` files with a mime type of `application/javascript` which is necessary for JavaScript files (including modules) to work properly while the same does not happen when ESM have the "regular" `.js` extension.
