@@ -6,14 +6,14 @@
 
 ## Features
 
-✅ Node support (CommonJS and ESM compatible),
-✅ browser support (ESM compatible),
-✅ single codebase for you to mantain,
-✅ codebase written in ESM style,
-✅ zero-config,
-✅ JavaScript supported,
-✅ TypeScript supported (beta),
-✅ TypeScript declarations (`*.d.ts`) exported by default,
+✅ Node support (CommonJS and ESM compatible),  
+✅ browser support (ESM compatible),  
+✅ single codebase for you to mantain,  
+✅ codebase written in ESM style,  
+✅ zero-config,  
+✅ JavaScript supported,  
+✅ TypeScript supported (beta),  
+✅ TypeScript declarations (`*.d.ts`) exported by default,  
 ✅ transpilation supported.
 <br>
 
