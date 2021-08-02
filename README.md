@@ -11,13 +11,21 @@ By using it you are creating a hybrid-module and a cross-over until ES modules b
 ## Features
 
 ✅ Node support (CommonJS modules and ES modules compatible),  
+
 ✅ browser support (ES modules compatible),  
+
 ✅ single codebase for you to mantain,  
+
 ✅ codebase written in ES modules style,  
+
 ✅ zero-config,  
+
 ✅ JavaScript supported,  
+
 ✅ TypeScript supported (WiP),  
+
 ✅ TypeScript declarations (`*.d.ts`) exported by default,  
+
 ✅ transpilation supported.
 
 <br>
