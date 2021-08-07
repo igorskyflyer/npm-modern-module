@@ -3,6 +3,13 @@
 		"cjs": {
 			"plugins": [
 				[
+					"babel-plugin-add-import-extension",
+					{
+						"extension": "cjs",
+						"replace": true
+					}
+				],
+				[
 					"@babel/plugin-transform-modules-commonjs",
 					{
 						"strict": true
