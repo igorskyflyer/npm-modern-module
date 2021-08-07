@@ -2,13 +2,14 @@
 	"name": "modern-module",
 	"version": "1.0.0",
 	"description": "",
+	"type": "module",
 	"engines": {
 		"node": ">=12.17"
 	},
 	"main": "main",
 	"exports": {
 		".": {
-			"require": "./dist/compat/main.js",
+			"require": "./dist/compat/main.cjs",
 			"import": "./dist/module/main.js"
 		}
 	},
@@ -19,11 +20,10 @@
 	],
 	"scripts": {
 		"clean": "rimraf ./dist/*",
-		"build:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/compat",
+		"build:cjs": "cross-env BABEL_ENV=cjs babel src -d dist/compat --out-file-extension .cjs",
 		"build:esm": "cross-env BABEL_ENV=esm babel src -d dist/module",
 		"build:dts": "tsc",
-		"magic": "node magic",
-		"build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:dts && npm run magic"
+		"build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:dts"
 	},
 	"keywords": [],
 	"author": "",
