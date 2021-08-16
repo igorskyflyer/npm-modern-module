@@ -1,4 +1,4 @@
-# 🤖 Modern Module 🌠
+## 🤖 Modern Module 🌠
 
 🤖 Modern Module is a zero-config starter template that allows you to create modern npm packages with support for both CommonJS modules (Node) and ES modules (browser + Node) out of the box providing no-hassle modern creating of modules. 🌠
 
