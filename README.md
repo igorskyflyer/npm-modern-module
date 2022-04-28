@@ -1,4 +1,4 @@
-# 🤖 Modern Module 🌠
+## 🤖 Modern Module 🌠
 
 🤖 Modern Module is a zero-config starter template that allows you to create modern npm packages with support for both CommonJS modules (Node) and ES modules (browser + Node) out of the box providing no-hassle modern creating of modules. 🌠
 
@@ -10,23 +10,35 @@ By using it you are creating a hybrid-module and a cross-over until ES modules b
 
 ## Features
 
-✅ Node support (CommonJS modules and ES modules compatible),  
+🌷&nbsp;&nbsp;Node support,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>CommonJS modules and ES modules compatible</sub>
 
-✅ browser support (ES modules compatible),  
+💫&nbsp;&nbsp;browser support¹ - ES modules compatible,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>other module systems are available too</sub>
 
-✅ single codebase for you to mantain,  
+⚡&nbsp;&nbsp;zero-config,  
 
-✅ codebase written in ES modules style,  
+🔥&nbsp;&nbsp;JavaScript supported,  
 
-✅ zero-config,  
+☄️&nbsp;&nbsp;TypeScript supported,  
 
-✅ JavaScript supported,  
+🌟&nbsp;&nbsp;modules interoperability,  
 
-✅ TypeScript supported (WiP),  
+🌴&nbsp;&nbsp;tree-shaking supported,
 
-✅ TypeScript declarations (`*.d.ts`) exported by default,  
+🌊&nbsp;&nbsp;single codebase for you to mantain,  
 
-✅ transpilation supported.
+🐦&nbsp;&nbsp;codebase written in ES modules style,  
+
+🦜&nbsp;&nbsp;type-checked codebase,  
+
+🐳&nbsp;&nbsp;TypeScript declarations (`*.d.ts`) exported by default,  
+
+🦘&nbsp;&nbsp;transpilation supported.
+
+<br>
+
+¹ - if you don't use Node-specific code, of course.
 
 <br>
 <br>
