@@ -6,6 +6,7 @@
 	"engines": {
 		"node": ">=12.17"
 	},
+	"sideEffects": false,
 	"main": "main",
 	"exports": {
 		".": {
